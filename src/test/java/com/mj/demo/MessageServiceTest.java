@@ -1,12 +1,10 @@
 package test.java.com.mj.demo;
 
+import static org.junit.Assert.assertEquals;
 import main.java.com.mj.demo.MessageService;
 
 import org.junit.Before;
 import org.junit.Test;
- 
-
-import static org.junit.Assert.assertEquals;
  
 public class MessageServiceTest {
  
@@ -19,6 +17,7 @@ public class MessageServiceTest {
  
     @Test
     public void getMessage_ShouldReturnMessage() {
-        assertEquals("Hello World!", messageService.getMessage());
+        assertEquals("Hello World!!!!", messageService.getMessage());
     }
+    
 }
